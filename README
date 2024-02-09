@@ -1,0 +1,22 @@
+1. Run folder_setup.py
+2. Make sure extractv2.py outputs to the folder desired: 'extracts_test' or 'extracts' with corresponding logger links
+3. Execute extractv2.py 
+    This will extract all pages for each category in this manner:
+        accounting$0_60000 :- accounting within range 0 to 60000
+    Ranges chosen are as follows (can be changed laters): Increment of 10000 from 0 to 250000. Check helper.py
+    
+    
+4. Run preprocessv2
+    This will go through and add:
+        - Summaries
+        - Min & Max Salary
+    This will go through and fix:
+        - Location
+        - Title 
+    TODO using ChatGPT:
+        - Fix Description
+        - Find minimum maximum salaries for those that have been given and add it to the salary columns
+ 
+
+ 5. Create Cron Job
+        

@@ -1,0 +1,11 @@
+1) New cols
+    - ACTIVE
+    - End client
+    - Summary parsing (ML)
+        - Years of Experience
+        - Certifications/Degrees
+        - Skills required
+    - Salary Parsing (ML)
+        - MIN, MEDIAN, MAX
+
+2) Seperate Actual Salary csv vs Range Salary csv 

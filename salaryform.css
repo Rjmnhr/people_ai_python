@@ -1,0 +1,127 @@
+.wpcf7 {
+    background-color: #a5b6ca;
+    padding: 30px;
+    }
+    .wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 textarea {
+    font-size: 16px;
+    color: #000000e8;
+    background-color: #E9ECF5;
+    border: 1px solid #E9ECF5;
+    border-radius: 10px;
+    }
+    .wpcf7 .wpcf7-submit { 
+    background-color: #E9ECF5;
+    border: 1px solid #E9ECF5;
+    color: #1f1f1f;
+    width: 100%;
+    }
+    
+    body {
+        font-family: "Open Sans",sans-serif;
+        color: #000;
+        background-color: #e11a1a;
+    }
+    
+    #user-registration .user-registration-MyAccount-navigation {
+        display: none;
+        margin: 0;
+    }
+    
+    #user-registration .user-registration-MyAccount-content .edit-password legend {
+        font-size: 19px;
+        font-weight: 400;
+    }
+    
+    #user-registration.horizontal .user-registration-MyAccount-content .edit-profile, #user-registration.horizontal .user-registration-MyAccount-content .edit-password, #user-registration.horizontal .ur-edit-profile .edit-profile, #user-registration.horizontal .ur-edit-profile .edit-password, #user-registration .user-registration-MyAccount-content .edit-profile, #user-registration .user-registration-MyAccount-content .edit-password, #user-registration .ur-edit-profile .edit-profile, #user-registration .ur-edit-profile .edit-password {
+        text-align: left;
+        background: #a5b6ca;
+    }
+    
+    #user-registration .user-registration-MyAccount-content {
+        padding: 0px;
+    }
+    
+    .ur-frontend-form .ur-form-row .ur-form-grid legend, .ur-frontend-form .ur-form-row .ur-form-grid label {
+        display: block;
+        font-size: 14px;
+        margin-bottom: 1px;
+        margin-top: 1px;
+    }
+    p.user-registration-register.register  {
+        font-size: medium;
+        font-weight: bold;
+    }
+    p.user-registration-LostPassword.lost_password{
+        font-size: medium;
+        font-weight: bold;
+    }
+    
+    .ur-frontend-form .ur-form-row .ur-form-grid {
+        width: 100% !important;
+        font-size: medium;
+        margin-bottom: 10px;
+        background:#a5b6ca
+    }
+    
+    
+    .footer-content-lists .footer-content {
+        background-color: #000;
+    }
+    
+    .navigation-bar.coloured-nav {
+        background-color:#000;
+    }
+    .coloured-nav ul.dropdown-menu>li, .fixto-fixed ul.dropdown-menu>li {
+        color: #fff;
+    }
+    a i.fa, a.icon-link i.fa {
+        color: white;
+    }
+    
+    .coloured-nav ul.dropdown-menu.active-line-bottom>.current-menu-item>a, .coloured-nav ul.dropdown-menu.active-line-bottom>.current_page_item>a, .coloured-nav ul.dropdown-menu.default>.current-menu-item>a, .coloured-nav ul.dropdown-menu.default>.current_page_item>a, .fixto-fixed ul.dropdown-menu.active-line-bottom>.current-menu-item>a, .fixto-fixed ul.dropdown-menu.active-line-bottom>.current_page_item>a, .fixto-fixed ul.dropdown-menu.default>.current-menu-item>a, .fixto-fixed ul.dropdown-menu.default>.current_page_item>a {
+        border-bottom: 3px solid #03a9f4;
+        color: white;
+    }
+    ul.dropdown-menu>li>a {
+        font-size: .9rem;
+        letter-spacing: 0;
+        color: white;
+    }
+    
+    a {
+        color: #262626;
+    }
+    
+    a:hover {
+      color: #00008A;
+    }
+    .ur-frontend-form.ur-frontend-form--rounded form button[type="submit"]{
+        color: #6ea187;
+    }
+    
+    .ur-frontend-form.ur-frontend-form--rounded form button[type="submit"], .ur-frontend-form.ur-frontend-form--rounded form button.user-registration-multi-part-nav-prev, .ur-frontend-form.ur-frontend-form--rounded form button.user-registration-multi-part-nav-next {
+        border: 0 none;
+        color: #ffffff;
+        border-radius: 25px;
+        float: none;
+        display: block;
+        padding: 1px 25px;
+        background: #03a9f4;
+    }
+    
+    .ur-frontend-form .ur-form-row .ur-form-grid {
+        width: 100% !important;
+        font-size: medium;
+        margin-bottom: 0px;
+        background: #a5b6ca;
+    
+    }
+    .form-item, form {
+        margin-bottom: 2rem;
+            margin: auto;
+    
+    }
+    
+    .header-top-bar {
+        background-color: #272727;
+    }

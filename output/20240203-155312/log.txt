@@ -1,0 +1,38 @@
+2024-02-03 15:53:12,645 - __main__ - INFO - Started extracts\testing\information-communication-technology$100000_105000.csv
+2024-02-03 15:53:12,811 - __main__ - INFO - Started extracts\testing\information-communication-technology$105000_110000.csv
+2024-02-03 15:53:12,982 - __main__ - INFO - Started extracts\testing\information-communication-technology$110000_115000.csv
+2024-02-03 15:53:13,266 - __main__ - INFO - Started extracts\testing\information-communication-technology$115000_120000.csv
+2024-02-03 15:53:13,725 - __main__ - INFO - Started extracts\testing\information-communication-technology$120000_125000.csv
+2024-02-03 15:53:14,281 - __main__ - INFO - Started extracts\testing\information-communication-technology$125000_130000.csv
+2024-02-03 15:53:14,684 - __main__ - INFO - Started extracts\testing\information-communication-technology$130000_135000.csv
+2024-02-03 15:53:15,043 - __main__ - INFO - Started extracts\testing\information-communication-technology$135000_140000.csv
+2024-02-03 15:53:15,476 - __main__ - INFO - Started extracts\testing\information-communication-technology$140000_145000.csv
+2024-02-03 15:53:15,798 - __main__ - INFO - Started extracts\testing\information-communication-technology$145000_150000.csv
+2024-02-03 15:53:16,124 - __main__ - INFO - Started extracts\testing\information-communication-technology$150000_155000.csv
+2024-02-03 15:53:16,442 - __main__ - INFO - Started extracts\testing\information-communication-technology$155000_160000.csv
+2024-02-03 15:53:16,626 - __main__ - INFO - Started extracts\testing\information-communication-technology$160000_165000.csv
+2024-02-03 15:53:16,775 - __main__ - INFO - Started extracts\testing\information-communication-technology$165000_170000.csv
+2024-02-03 15:53:16,974 - __main__ - INFO - Started extracts\testing\information-communication-technology$170000_175000.csv
+2024-02-03 15:53:17,116 - __main__ - INFO - Started extracts\testing\information-communication-technology$175000_180000.csv
+2024-02-03 15:53:17,264 - __main__ - INFO - Started extracts\testing\information-communication-technology$180000_185000.csv
+2024-02-03 15:53:17,421 - __main__ - INFO - Started extracts\testing\information-communication-technology$185000_190000.csv
+2024-02-03 15:53:17,566 - __main__ - INFO - Started extracts\testing\information-communication-technology$190000_195000.csv
+2024-02-03 15:53:17,757 - __main__ - INFO - Started extracts\testing\information-communication-technology$195000_200000.csv
+2024-02-03 15:53:17,910 - __main__ - INFO - Started extracts\testing\information-communication-technology$200000_205000.csv
+2024-02-03 15:53:18,059 - __main__ - INFO - Started extracts\testing\information-communication-technology$205000_210000.csv
+2024-02-03 15:53:18,207 - __main__ - INFO - Started extracts\testing\information-communication-technology$210000_215000.csv
+2024-02-03 15:53:18,341 - __main__ - INFO - Started extracts\testing\information-communication-technology$215000_220000.csv
+2024-02-03 15:53:18,469 - __main__ - INFO - Started extracts\testing\information-communication-technology$220000_225000.csv
+2024-02-03 15:53:18,609 - __main__ - INFO - Started extracts\testing\information-communication-technology$225000_230000.csv
+2024-02-03 15:53:18,748 - __main__ - INFO - Started extracts\testing\information-communication-technology$230000_235000.csv
+2024-02-03 15:53:18,984 - __main__ - INFO - Started extracts\testing\information-communication-technology$235000_240000.csv
+2024-02-03 15:53:19,279 - __main__ - INFO - Started extracts\testing\information-communication-technology$240000_245000.csv
+2024-02-03 15:53:19,562 - __main__ - INFO - Started extracts\testing\information-communication-technology$245000_250000.csv
+2024-02-03 15:53:19,908 - __main__ - INFO - Started extracts\testing\information-communication-technology$80000_85000.csv
+2024-02-03 15:53:20,178 - __main__ - INFO - '<=' not supported between instances of 'str' and 'int' for 
+2024-02-03 15:53:20,267 - __main__ - INFO - Started extracts\testing\information-communication-technology$85000_90000.csv
+2024-02-03 15:53:20,691 - __main__ - INFO - '<=' not supported between instances of 'str' and 'int' for 
+2024-02-03 15:53:20,772 - __main__ - INFO - Started extracts\testing\information-communication-technology$90000_95000.csv
+2024-02-03 15:53:21,062 - __main__ - INFO - '<=' not supported between instances of 'str' and 'int' for 
+2024-02-03 15:53:21,132 - __main__ - INFO - Started extracts\testing\information-communication-technology$95000_100000.csv
+2024-02-03 15:53:21,542 - __main__ - INFO - '<=' not supported between instances of 'str' and 'int' for 
