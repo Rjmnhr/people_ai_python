@@ -11,12 +11,15 @@ def postprocess(input_file, output_file):
 
     # Function to extract contract information
     def intfinder(value):
-        for i in value[::-1]:
-            if any(char == '%' for char in i):
-                continue
-            if any(char.isdigit() for char in i):
-                index = value.index(i)
-                return ' '.join(value[index+1:])
+        try:    
+            for i in value[::-1]:
+                if any(char == '%' for char in i):
+                    continue
+                if any(char.isdigit() for char in i):
+                    index = value.index(i)
+                    return ' '.join(value[index+1:])
+        except:
+            return 'no'
 
     # Apply the contract extraction function
     df['contract'] = df['salary'].str.split(' ').apply(intfinder)
@@ -57,7 +60,9 @@ current_directory = os.getcwd()
 files_to_process = [file for file in os.listdir(current_directory) if file.startswith('final_')]
 
 def postprocessv2():    
-    for file in files_to_process:    
+    for file in files_to_process: 
+        print(file)   
         input_file = os.path.join(current_directory, file)
         output_file = os.path.join(current_directory, 'postprocessed_' + file)
         postprocess(input_file, output_file)
+# postprocessv2()

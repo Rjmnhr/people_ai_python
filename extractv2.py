@@ -65,8 +65,13 @@ def extract(): # For every URL and corresponding page
             df=pd.DataFrame(jobList)
             #  print(df)
             df.to_csv(f'extracts/testing/{outputName}.csv')
-            with open('seek_urlind_comp'+'.txt', 'w') as file:
-                file.write(str(urlind+1))
+            
+            if ur == (len(linkSet)-1):
+                with open('seek_urlind_comp'+'.txt', 'w') as file:
+                    file.write(str(0))    
+            else:
+                with open('seek_urlind_comp'+'.txt', 'w') as file:
+                    file.write(str(urlind+1))
         with open('seek_linind_comp'+'.txt', 'w') as file:
             file.write(str(linind+1))
             
@@ -139,13 +144,15 @@ def transform(soup, jobList,category):
     #divs=soup.find_all('div', class_='yvsb870 v8nw070 v8nw072') # UPDATE THIS
     parentDivs =soup.find_all('div', class_ = itemsParentDiv)
     # class="_1wkzzau0 szurmz0 szurmzb"
+    # print(parentDivs)
     for parent in parentDivs:
     # print(f'HERE IS THE divs: {divs}')
             # For each parent, fetch child divs with the specified class
         try:    
-            divs = parent.find_all('div', class_=itemsDiv)
+            divs = parent.find_all('div', class_= itemsDiv)
         except:
             print('error in divs')
+            continue
         for item in divs:
             try:
                 #jobTitle=item.find('a', {'data-automation':'jobTitle'}).text.strip()
@@ -233,7 +240,10 @@ def transform(soup, jobList,category):
                 }
                 
                 jobList.append(job)
-    return len(divs)
+    try:
+        return len(divs)
+    except:
+        print('no len')
 
 extract()
 

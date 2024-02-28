@@ -14,8 +14,8 @@ Links = []
 # Timestamp
 curTime = time.strftime("%Y%m%d-%H%M%S") 
 curDay = date.today()
-itemsParentDiv = '_1wkzzau0 szurmz0 szurmz4'
-itemsDiv = '_1wkzzau0 a1msqi6m'
+itemsParentDiv = 'y735df0 _1akoxc50 _1akoxc54'
+itemsDiv = 'y735df0 _1iz8dgs6m'
 ################################################################################
 # HELPER FUNCS - COMMON
 
@@ -200,7 +200,7 @@ if daterange != 0:
     else:
         daterange = 0
 
-i = 100000
+i = 80000
 while(i < 350000):
         salaryRanges.append(f'?daterange={daterange}&salaryrange={i}-{i+salary_increment}&salarytype=annual')
         i += salary_increment
